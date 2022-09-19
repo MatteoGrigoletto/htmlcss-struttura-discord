@@ -51,6 +51,20 @@ Debugg
 .debug .border{
     border: 2px dashed black;   
 }
+.debug .white-border{
+    border: 2px dashed white;  
+}
+.debug .top-footer{
+    background-color: #23272a;
+}
+.debug .big-footer{
+    background-color: #f08080 ;
+    height: 580px;
+}
+.debug .small-footer{
+    background-color: #20b2aa ;
+    height: 580px;
+}
 /*-------
  header
 -------*/
@@ -102,3 +116,17 @@ main
 .giant-box{
     width: 100%;
 }
+/*-------
+footer
+--------*/
+footer section > div{
+    display: flex;
+    padding: 10px 0px 40px;
+}
+.big-footer{
+    width: calc(100% - 210px * 4);
+}
+.small-footer{
+    width: 210px;
+}
+
