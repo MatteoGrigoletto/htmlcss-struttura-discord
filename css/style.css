@@ -65,6 +65,21 @@ Debugg
     background-color: #20b2aa ;
     height: 580px;
 }
+.debug .bottom-footer{
+    background-color: #23272a;
+}
+.debug .last-box{
+    background-color:#7fffd4;
+    height: 80px;
+}
+.debug .footer-logo{
+    background-color: #ffb6c1 ;
+    height: 37px;
+}
+.debug .footer-botton{
+    background-color: #ffb6c1 ;
+    height: 37px;
+}
 /*-------
  header
 -------*/
@@ -129,4 +144,25 @@ footer section > div{
 .small-footer{
     width: 210px;
 }
-
+.last-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    display: flex;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-botton{
+    display: flex;
+    width: 93px;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-footer{
+    padding-top: 30px;
+    margin-top: 2px;
+}
