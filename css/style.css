@@ -6,3 +6,69 @@ General
     margin: 0;
     padding: 0;
 }
+.container{
+    max-width: 1200px;
+    margin:auto;
+}
+/*--------
+Debugg
+---------*/
+.debug header{
+    background-color: #add8e6;
+}
+.debug .credential{   
+    background-color: #daa520;
+}
+.debug .credential > *{
+    height: 45px;
+    border: 2px dashed black;   
+}
+.debug .bottom-header{
+    background-color: #00008b;
+}
+.debug .main-box{
+    height: 500px;
+}
+.debug .box-header{
+    background-color: #ee82ee ;
+    height: 400px;
+}
+/*-------
+ header
+-------*/
+.top-header{
+    padding: 17px 0px;
+}
+    
+
+.credential{
+    display: flex;
+
+}
+.col-logo{
+    width: 25%; 
+    display: flex;
+    align-items:center;
+}
+.col-link{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.col-login{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+.main-box{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.box-header{
+    width:calc(100% - 290px);
+    border-radius: 10px;
+    
+}
